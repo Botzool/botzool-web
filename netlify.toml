@@ -1,0 +1,23 @@
+[[redirects]]
+  from = "/mirecol"
+  to = "https://mirecol.netlify.app/mirecol"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/mirecol/*"
+  to = "https://mirecol.netlify.app/mirecol/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/vegsci"
+  to = "https://vegsci.netlify.app/vegsci"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/vegsci/*"
+  to = "https://vegsci.netlify.app/vegsci/:splat"
+  status = 200
+  force = true
