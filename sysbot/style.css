@@ -1,0 +1,91 @@
+body, h1, h2, h3 {font-family:Arial CE, Helvetica CE, Arial, Helvetica, sans-serif;}
+body {background-color:#ffffee; #550;}
+a {color: #071; text-decoration:none;}
+a:active, a:hover {color: #192; text-decoration:underline;}
+a.dark {color: #020; text-decoration:none;}
+a.dark:active, a.dark:hover {color: #040; text-decoration:underline;}
+
+#top_okraj	{height: 10px;}
+#head_pruh {background-color: #3e7404; width:100%; height: 145px; display: block; margin: 0 auto; padding: 0; overflow: hidden;}
+#head_pruh_inside {width: 1200px; max-height: 145px;  left: -95px; position: relative; color: black; margin: 0 auto; padding: 0; font-size: 35pt; font-weight: bold; color: white;}
+#head_pruh_gradient {height: 145px; vertical-align: middle; position: absolute; z-index: 2;}
+#head_pruh_right {height: 145px; vertical-align: middle; position: absolute; z-index: 1;}
+.logo_biosyst_top {height: 135px; vertical-align: middle; margin: 7px; position: relative;}
+#biosyst_title {height: 100px; vertical-align: middle; position: relative;}
+#menu {width:1200px; background-color: white; color: black;  display: block; margin: 0 auto; border-bottom: solid 15px #ffffee; padding: 0; font-size: 16pt; z-index: 2;}
+.menu_flag	{height: 22px; vertical-align: middle; margin: 12px 2px; float:right; border:1px solid black;}
+#content {width:1200px; min-height: 300px; background-color: white; color: black; margin: 0 auto; padding: 10px; box-sizing: border-box;}
+#bottom_pruh {background-color: #0e200e; width:100%; height: 145px; display: block; margin: 0 auto; padding: 0; position: relative; bottom: 0;}
+#bottom_pruh_inside {width:1200px; height: 135px; position: relative; margin: 0 auto; padding-top: 14px; color: white; font-size: 12pt; line-height: 1.4;}
+#bottom_pruh_left {width: 400px; position: relative; display: table-cell; vertical-align: middle;}
+#bottom_pruh_center {width: 400px; position: relative; display: table-cell; font-size: 10pt; text-align: center; vertical-align: bottom;}
+#bottom_pruh_right {width: 400px; position: relative; display: table-cell; text-align:right; vertical-align: middle;}
+.bottom_adresa {font-size: 10pt; color: #ccc;}
+.bottom_adresa_bold {font-weight: bold;}
+.smallicon {height: 27px; vertical-align: middle;}
+.smallmuni {height: 17px; vertical-align: middle; margin-left: 3px; margin-bottom: 4px;}
+
+body {margin:0;}
+
+#menu ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; top: 0; width: 100%;}
+#menu li {float: left;}
+#menu li a {display: block; color: black; text-align: center; padding: 12px 16px; text-decoration: none;}
+#menu __li a:hover:not(.active) {background-color: #3e7404; color: white; text-decoration: none;}
+#menu li a:hover {background-color: #3e7404; color: white; text-decoration: none;}
+#menu .active {background-color: #3e7404; color: white; text-decoration: none;}
+.menu_sticky {width:1200px; position: fixed; top: 0; margin: 0 auto; left:0; right:0;}
+
+p {padding: 14px 16px;}
+
+h1 {font-family: DejaVu Sans, Trebuchet MS; font-weight: normal; letter-spacing:0.15em; font-size:3.5em; text-align:center;}
+
+.people_item {width: 100%; font-size: 14pt; display: table; padding-top:20px; padding-bottom:20px;}
+.people_photo {width:230px; text-align: center; vertical-align: top; position:relative; display:table-cell;}
+.people_photo_img {width:190px;}
+.people_info {position:relative; display:table-cell;}
+.people_name {font-size: 18pt; font-weight: bold;}
+.people_name_box {margin-bottom:10px;}
+.people_title {font-size: 14pt; color: #555;}
+.people_funkce {color: #071; margin-bottom: 20px;}
+.people_contact a {color: black;}
+.people_contact_line {position:relative; display: table-cell;}
+.people_icon {vertical-align: middle; margin: 10px;}
+.people_iconline {width:100%; position:relative; display: table-row;}
+
+.expanded, .expander {cursor: pointer; padding: 18px; border: none; text-align: left; outline: none; font-size: 15px; color: #071; font-weight: bold;}
+.expander:hover, .expanded:hover {color: #192;}
+.expand_arrow {width:18px; vertical-align: middle;}
+.people_medail {padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out;	font-size: 12pt; line-height: 1.5; text-align: justify;}
+.people_medail_detail {padding: 18 9px; overflow: hidden; font-size: 12pt; line-height: 1.5; text-align: justify;}
+
+.main_uvod {font-size: 14pt; text-align: justify; line-height: 1.3;}
+.main_temata {width: 750px; margin: 0 auto; position: relative;}
+.main_temata_inside {width: 250px; display: table-cell; text-align: center;}
+
+.lab_img_large_center {width: 1150px; margin: 30px auto;}
+.lab_img_medium_center {width: 760px; margin: 30px auto;}
+.lab_img_smaller_center {width: 560px; margin: 30px auto;}
+.lab_img_large_box {font-size: 12pt; display: table-cell; text-align: center; margin: 0 auto;}
+.lab_img_large {width: 550px; margin: 10px;}
+.lab_img_XL {width: 720px; margin: 10px;}
+
+.proj_descript {text-align: justify;}
+.proj_img {width: 158px; float: left; margin-right: 10px;}
+.proj_img_small {width: 100px; float: left; margin-right: 10px;}
+.proj_h2_uzke {font-weight:bold;}
+
+.seminar_program {width: 900px; margin: 0 auto;}
+.seminar_datum {width: 120px; height: 30pt; padding: 10px; text-align: right; vertical-align: top; font-weight: bold;}
+.seminar_tema {vertical-align: top; padding: 10px;}
+
+.fotoarchiv {background: #ffffee; border:7px solid #ffffee;}
+.foto_nahled_bunka {background: #FFFFE0; border:1px solid #000; text-align:center; vertical-align: middle; border-collapse:expand;}
+.foto_nahled_bar {background: #ffffee; text-align:center; vertical-align: middle; border-collapse:expand;}
+.fotoarchiv_podklad {background: #ffffee; border:7px solid #e8e270;}
+.fotoarchiv_odkaz1 {background: #ffffee; padding:0 0.2em 0 0.2em;}
+.fotoarchiv_odkaz2 {background: #ffffff; padding:0 0.2em 0 0.2em;}
+.foto_vybrane {border:2px solid #FFAA00;}
+.foto_noborder {border:0px;}
+.foto_arrow {width:18px; vertical-align: middle;}
+
+.links_block {margin-left:15px; margin-bottom:35px;}
